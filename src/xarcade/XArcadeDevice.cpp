@@ -22,8 +22,8 @@
 #include "XArcadeDefines.h"
 #include "utils/CommonDefines.h" // for INVALID_FD
 
-#include "kodi_peripheral_utils.hpp"
-#include "libXBMC_addon.h"
+#include <kodi/kodi_peripheral_utils.hpp>
+#include <kodi/libXBMC_addon.h>
 
 #include <errno.h>
 #include <linux/input.h>
