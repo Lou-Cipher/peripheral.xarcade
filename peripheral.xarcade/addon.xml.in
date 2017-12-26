@@ -4,6 +4,7 @@
     version="1.0.0"
     name="X-Arcade Tankstick Driver"
     provider-name="Team-Kodi">
+    <requires>@ADDON_DEPENDS@</requires>
     <requires>
         <c-pluff version="0.1"/>
         <import addon="kodi.peripheral" version="1.2.0"/>
